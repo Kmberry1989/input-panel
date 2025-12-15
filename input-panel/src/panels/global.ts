@@ -12,6 +12,8 @@ export const globalPanel: Panel = {
     { id: "screenshot", label: "Screenshot", action: "system", payload: "screenshot" },
     { id: "switch", label: "App Switcher", action: "system", payload: "switcher" },
     { id: "minimize", label: "Minimize", action: "system", payload: "minimize" },
+        { id: "restore", label: "Restore", action: "system", payload: "restore" },
+    { id: "taskmanager", label: "Task Manager", action: "system", payload: "taskmanager" },
     { id: "close", label: "Close", action: "system", payload: "close" }
   ]
 };
