@@ -6,6 +6,9 @@ export interface PanelButton {
   label: string;
   action: ActionType;
   payload: string;
+  breakAfter?: boolean;
+  gridColumn?: string;
+  gridRow?: string;
 }
 
 export interface Panel {
